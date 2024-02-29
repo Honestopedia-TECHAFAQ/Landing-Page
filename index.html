@@ -801,7 +801,7 @@
               <div class="footer-widget f-about">
                 <div class="logo">
                   <a href="index.html">
-                    <img src="/DC FLOORING 1 white (1).png" alt="#" class="img-fluid" />
+                    <img src="logo.png" alt="#" class="img-fluid" />
                   </a>
                 </div>
                 <p>
@@ -877,16 +877,12 @@
   <script src="assets/js/tiny-slider.js"></script>
 
   <script>
-
-    //===== close navbar-collapse when a  clicked
     let navbarTogglerNine = document.querySelector(
       ".navbar-nine .navbar-toggler"
     );
     navbarTogglerNine.addEventListener("click", function () {
       navbarTogglerNine.classList.toggle("active");
     });
-
-    // ==== left sidebar toggle
     let sidebarLeft = document.querySelector(".sidebar-left");
     let overlayLeft = document.querySelector(".overlay-left");
     let sidebarClose = document.querySelector(".sidebar-close .close");
@@ -899,16 +895,12 @@
       sidebarLeft.classList.remove("open");
       overlayLeft.classList.remove("open");
     });
-
-    // ===== navbar nine sideMenu
     let sideMenuLeftNine = document.querySelector(".navbar-nine .menu-bar");
 
     sideMenuLeftNine.addEventListener("click", function () {
       sidebarLeft.classList.add("open");
       overlayLeft.classList.add("open");
     });
-
-    //========= glightbox
     GLightbox({
       'href': 'https://youtu.be/dwkQMjxoGos',
       'type': 'video',
